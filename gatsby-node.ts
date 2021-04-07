@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+import importFresh from 'import-fresh';
 import { SECTIONS } from './content/ordering';
 import PGS from './src/components/markdown/PGS';
 import id_to_sol from './src/components/markdown/ProblemsList/DivisionList/id_to_sol';
@@ -10,7 +11,6 @@ import {
   probSources,
 } from './src/models/problem';
 import { books } from './src/utils/books';
-import importFresh = require('import-fresh');
 
 const mdastToStringWithKatex = require('./src/mdx-plugins/mdast-to-string');
 const mdastToString = require('mdast-util-to-string');
