@@ -76,7 +76,6 @@ export const pageQuery = graphql`
       body
       frontmatter {
         id
-        source
         title
         author
       }
