@@ -101,7 +101,7 @@ export default function TopNavigationBar({
               </Link>
               <div className={`hidden lg:ml-8 lg:flex space-x-8`}>
                 <SectionsDropdown currentSection={currentSection} />
-                <Link
+                {/* <Link
                   to="/problems/"
                   getProps={({ isCurrent }) => ({
                     className: isCurrent
@@ -122,15 +122,15 @@ export default function TopNavigationBar({
                   >
                     Groups
                   </Link>
-                )}
-                <a
+                )} */}
+                {/* <a
                   href="https://forum.usaco.guide/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center px-1 pt-0.5 border-b-2 border-transparent text-base font-medium leading-6 text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-dark-high-emphasis focus:outline-none focus:text-gray-700 focus:border-gray-300 transition"
                 >
                   Forum
-                </a>
+                </a> */}
                 <button
                   className="cursor-pointer inline-flex items-center px-1 text-base font-medium leading-6 text-gray-500 hover:text-gray-700 dark:text-dark-high-emphasis transition focus:outline-none"
                   onClick={() => setIsContactUsActive(true)}
@@ -139,7 +139,7 @@ export default function TopNavigationBar({
                 </button>
               </div>
             </div>
-            <div
+            {/* <div
               className={`flex-1 flex items-center justify-end px-2 lg:px-0 lg:ml-6`}
             >
               <button
@@ -154,7 +154,7 @@ export default function TopNavigationBar({
 
                 <span className="ml-2 font-medium">Search</span>
               </button>
-            </div>
+            </div> */}
             <div className="flex items-center lg:hidden">
               {/* Mobile menu button */}
               <MobileMenuButtonContainer
@@ -204,12 +204,12 @@ export default function TopNavigationBar({
                 />
               ) : (
                 <>
-                  <button
+                  {/* <button
                     onClick={() => signIn()}
                     className="relative inline-flex items-center px-2 py-1 border border-transparent text-base leading-6 font-medium rounded-md text-gray-500 hover:text-gray-700 dark:text-dark-high-emphasis focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     Login
-                  </button>
+                  </button> */}
 
                   {/* Settings button */}
                   <Link
@@ -276,7 +276,7 @@ export default function TopNavigationBar({
             >
               Settings
             </Link>
-            {firebaseUser ? (
+            {/* {firebaseUser ? (
               <button
                 className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 dark:text-dark-med-emphasis hover:text-gray-800 dark:hover:text-dark-high-emphasis hover:bg-gray-50 dark:hover:bg-gray-700 hover:border-gray-300 dark:hover:border-gray-500 focus:outline-none focus:text-gray-800 focus:bg-gray-50 dark:focus:bg-gray-700 focus:border-gray-300 transition"
                 onClick={() => signOut()}
@@ -290,7 +290,7 @@ export default function TopNavigationBar({
               >
                 Sign In
               </button>
-            )}
+            )} */}
           </div>
         </div>
       </nav>

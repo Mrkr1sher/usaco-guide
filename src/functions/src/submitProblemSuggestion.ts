@@ -11,7 +11,7 @@ import {
 
 const problemSuggestionReviewers = {
   general: ['thecodingwizard'],
-  bronze: ['caoash'],
+  microeconomics: ['caoash'],
   silver: ['andrewwangva'],
   gold: ['caoash'],
   plat: ['nchn27'],

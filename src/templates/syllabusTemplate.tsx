@@ -60,57 +60,24 @@ const SectionContainer = styled.div`
 `;
 
 const HeroBGColor: { [key in SectionID]: string } = {
-  general: 'bg-blue-700 dark:bg-blue-900',
-  bronze: 'bg-orange-800 dark:bg-orange-900',
-  silver: 'bg-teal-700 dark:bg-teal-900',
-  gold: 'bg-yellow-700 dark:bg-yellow-900',
-  plat: 'bg-purple-700 dark:bg-purple-900',
-  adv: 'bg-green-700 dark:bg-green-900',
+  microeconomics: 'bg-orange-800 dark:bg-orange-900',
 };
 
 const HeroTextColor: { [key in SectionID]: string } = {
-  general: 'text-teal-200',
-  bronze: 'text-orange-100',
-  silver: 'text-teal-100',
-  gold: 'text-yellow-100',
-  plat: 'text-purple-100',
-  adv: 'text-green-100',
+  microeconomics: 'text-orange-100',
 };
 
 const topicsWarning = (
   <>
-    The topics below are not exhaustive for this division.
-    <br />
-    Contest problems may contain topics not covered in the guide, or topics
-    listed under different divisions!
+    Curated, hand-crafted AP Resources
   </>
 );
 const SECTION_DESCRIPTION: { [key in SectionID]: React.ReactNode } = {
-  general: (
-    <>
-      You don't have to complete all the modules in this section before moving
-      on to Bronze.
-      <br />
-      Feel free to mark some as "skipped" and revisit them at a later time!
-    </>
-  ),
-  bronze: topicsWarning,
-  silver: topicsWarning,
-  gold: topicsWarning,
-  plat: (
+  microeconomics: (
     <>
       {topicsWarning}
       <br />
-      Some lower-frequency topics are included in "Advanced."
-    </>
-  ),
-  adv: (
-    <>
-      Some these topics have not appeared in Platinum and probably never will
-      (ex. Matroid Intersection).
-      <br />
-      Others have appeared in Old Gold or Platinum very infrequently (ex. BCC,
-      Suffix Array).
+      for the AP Microeconomics Exam
     </>
   ),
 };

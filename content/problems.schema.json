@@ -30,7 +30,7 @@
           "description": "Stores the problems (and their solutions) associated with a module.",
           "type": "string",
           "enum": [
-            "Bronze",
+            "Microeconomics",
             "Silver",
             "Gold",
             "Plat",

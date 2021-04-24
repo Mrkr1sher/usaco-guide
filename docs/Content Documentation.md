@@ -425,6 +425,7 @@ Special functionality based on source:
     - `PAPS` (Principles of Algorithmic Problem Solving)
     - `CP2` (Competitive Programming 2)
     - `IUSACO` (Darren's book; will auto-set URL based on user language; uses
+    - `USACOW` (Darren's book; will auto-set URL based on user language; uses
       C++ for Python users)
 - Some sources have URL shortcuts that they will prepend to the URL.
   - ```typescript

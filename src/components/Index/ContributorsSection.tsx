@@ -49,10 +49,10 @@ export default function ContributorsSection() {
             By the Community, for the Community.
           </h1>
           <p className="text-lg text-gray-500 dark:text-gray-400 leading-8 mb-6">
-            Interested in joining the USACO Guide team? We are recruiting
-            Content Authors to help us improve the USACO Guide!{' '}
+            Interested in joining the AP Guide team? We are recruiting
+            Content Authors to help us improve the AP Guide!{' '}
             <a
-              href="https://docs.google.com/document/d/13xR2A2mOftVzlC6QTSkm3zLLdFtI1NhlzRWJ81FfU9U/edit"
+              href="https://google.com"
               target="_blank"
               rel="noreferrer"
               className="text-blue-600 dark:text-blue-400 font-bold"
@@ -81,7 +81,7 @@ export default function ContributorsSection() {
             <li className="italic">
               This could be you!{' '}
               <a
-                href="https://docs.google.com/document/d/13xR2A2mOftVzlC6QTSkm3zLLdFtI1NhlzRWJ81FfU9U/edit"
+                href="https://google.com"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-600 dark:text-blue-400"

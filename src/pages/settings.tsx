@@ -93,9 +93,9 @@ export default function SettingsPage() {
               <h1 className="text-3xl font-extrabold text-gray-900 dark:text-gray-100">
                 Settings
               </h1>
-              <p className="text-gray-500 dark:text-gray-400 mt-2">
+              {/* <p className="text-gray-500 dark:text-gray-400 mt-2">
                 If you're signed in, settings sync across devices.
-              </p>
+              </p> */}
             </div>
             <div className="px-4 sm:px-6 md:px-0">
               <div className="py-6">
@@ -103,10 +103,10 @@ export default function SettingsPage() {
                   options={tabs}
                   labelMap={{
                     general: 'General',
-                    profile: 'Profile',
-                    auth: 'Sign In Methods',
-                    'user-data': 'User Data',
-                    admin: 'Admin Settings',
+                    // profile: 'Profile',
+                    // auth: 'Sign In Methods',
+                    // 'user-data': 'User Data',
+                    // admin: 'Admin Settings',
                   }}
                   value={tab}
                   onChange={x => setTab(x)}
@@ -115,7 +115,8 @@ export default function SettingsPage() {
                 <div className="h-10" />
 
                 <div className="space-y-10">
-                  {tab === 'general' && (
+                <DarkMode />
+                  {/* {tab === 'general' && (
                     <>
                       <Language />
                       <DarkMode />
@@ -141,7 +142,7 @@ export default function SettingsPage() {
                     <>
                       <AdminSettings />
                     </>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
