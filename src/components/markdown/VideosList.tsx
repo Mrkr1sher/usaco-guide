@@ -6,7 +6,7 @@ import TextTooltip from '../Tooltip/TextTooltip';
 import Tooltip from '../Tooltip/Tooltip';
 import PGS from './PGS';
 
-export function ResourcesList(props) {
+export function VideosList(props) {
   return (
     <div className="-mx-4 sm:-mx-6 md:mx-0">
       <div className="flex flex-col mb-4">
@@ -21,7 +21,7 @@ export function ResourcesList(props) {
                     colSpan={4}
                     className={`px-4 sm:px-6 border-b text-left font-medium text-sm uppercase py-3 border-gray-200 dark:border-transparent bg-purple-50 text-purple-500 dark:bg-purple-700 dark:bg-opacity-25 dark:text-purple-200`}
                   >
-                    Resources{props.title ? `: ${props.title}` : ''}
+                    Videos{props.title ? `: ${props.title}` : ''}
                   </th>
                 </tr>
               </thead>
@@ -69,7 +69,7 @@ const moduleSources = {
   LCPP: ['https://www.learncpp.com/cpp-tutorial/', 'learncpp.com'],
 };
 
-export function Resource(props) {
+export function VideoResource(props) {
   const userSettings = useContext(UserDataContext);
   let source = props.source ? props.source : '';
   let url = props.url;

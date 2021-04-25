@@ -145,6 +145,7 @@ imported):
 - `<Problems>`
 - `<FocusProblem>`
 - `<Resources>`
+- `<Videos>`
 - `<Resource>`
 - `<TextTooltip>`
 - `<LanguageSection>`
@@ -414,6 +415,22 @@ Displays a singular problem as a "focus problem."
   </Resource>
   ...
 </Resources>
+```
+
+### Video Lists
+
+```
+<Videos>
+  <Resource
+    source="Errichto"
+    title="Video - How to test your solution"
+    url="https://www.youtube.com/watch?v=JXTVOyQpSGM"
+    starred
+  >
+    using a script to stress test
+  </Resource>
+  ...
+</Videos>
 ```
 
 Special functionality based on source:

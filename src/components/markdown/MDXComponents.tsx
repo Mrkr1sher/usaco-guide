@@ -15,8 +15,9 @@ import Optional from './Optional';
 import PrefixSumInteractive from './PrefixSumInteractive';
 import { DivisionList } from './ProblemsList/DivisionList/DivisionList';
 import { ProblemsList } from './ProblemsList/ProblemsList';
-import { Resource, ResourcesList } from './ResourcesList';
+import { ReadingResource, ReadingResourcesList } from './ReadingResourcesList';
 import Spoiler from './Spoiler';
+import { VideoResource, VideosList } from './VideosList';
 import Warning from './Warning';
 import Youtube from './Youtube';
 
@@ -46,9 +47,11 @@ export const components = {
   Optional,
   Problems: ProblemsList,
   FocusProblem,
-  Resources: ResourcesList,
+  ReadingResources: ReadingResourcesList,
+  VideoResources: VideosList,
   DivisionList,
-  Resource,
+  ReadingResource,
+  VideoResource,
   TextTooltip,
   LanguageSection,
   CPPSection,

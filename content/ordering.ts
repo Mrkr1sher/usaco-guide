@@ -13,7 +13,7 @@ const MODULE_ORDERING: { [key in SectionID]: Chapter[] } = {
   microeconomics: [
     {
       name: 'Basic Economic Concepts',
-      items: ['scarcity'],
+      items: ['scarcity', 'resource-allocation'],
     },
     {
       name: 'Supply and Demand',
