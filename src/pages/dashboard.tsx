@@ -5,7 +5,7 @@ import {
   moduleIDToURLMap,
   SECTION_LABELS,
 } from '../../content/ordering';
-import ActiveItems, { ActiveItem } from '../components/Dashboard/ActiveItems';
+// import ActiveItems, { ActiveItem } from '../components/Dashboard/ActiveItems';
 import AnnouncementBanner from '../components/Dashboard/AnnouncementBanner';
 import Announcements from '../components/Dashboard/Announcements';
 import Card from '../components/Dashboard/DashboardCard';
@@ -167,7 +167,7 @@ export default function DashboardPage(props: PageProps) {
               </div>
             </div>
           </div>
-          <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-8">
+          {/* <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-8">
             {activeProblems.length > 0 && (
               <div className="mb-8">
                 <ActiveItems type="problems" items={activeProblems} />
@@ -178,7 +178,7 @@ export default function DashboardPage(props: PageProps) {
                 <ActiveItems type="modules" items={activeModules} />
               </div>
             )}
-          </div>
+          </div> */}
           <header id="announcements">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h1 className="text-3xl font-bold leading-tight text-gray-900 dark:text-dark-high-emphasis">

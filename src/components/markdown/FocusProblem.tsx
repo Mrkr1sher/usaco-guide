@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useMarkdownProblemLists } from '../../context/MarkdownProblemListsContext';
 import { ProblemInfo } from '../../models/problem';
-import ProblemStatusCheckbox from './ProblemsList/ProblemStatusCheckbox';
+// import ProblemStatusCheckbox from './ProblemsList/ProblemStatusCheckbox';
 
 export default function FocusProblem({
   problem: problemID,
@@ -63,9 +63,9 @@ export default function FocusProblem({
               </a>
             </div>
           </div>
-          <div className="flex-shrink-0 flex items-center justify-center mt-1 sm:mr-2 ml-2">
+          {/* <div className="flex-shrink-0 flex items-center justify-center mt-1 sm:mr-2 ml-2">
             <ProblemStatusCheckbox problem={problem} size="large" />
-          </div>
+          </div> */}
         </div>
         <p className="text-xs italic text-gray-400 font-normal py-3 border-t border-gray-100 dark:border-gray-700 px-6">
           Focus Problem – read through this problem before continuing!

@@ -12,9 +12,6 @@ import {
   PySection,
 } from './LanguageSection';
 import Optional from './Optional';
-import PrefixSumInteractive from './PrefixSumInteractive';
-import { DivisionList } from './ProblemsList/DivisionList/DivisionList';
-import { ProblemsList } from './ProblemsList/ProblemsList';
 import { ReadingResource, ReadingResourcesList } from './ReadingResourcesList';
 import Spoiler from './Spoiler';
 import { VideoResource, VideosList } from './VideosList';
@@ -45,11 +42,9 @@ export const components = {
   Info,
   Warning,
   Optional,
-  Problems: ProblemsList,
   FocusProblem,
   ReadingResources: ReadingResourcesList,
   VideoResources: VideosList,
-  DivisionList,
   ReadingResource,
   VideoResource,
   TextTooltip,
@@ -60,7 +55,6 @@ export const components = {
   IncompleteSection,
   Asterisk,
   Youtube,
-  PrefixSumInteractive,
   MATHDIV,
   MATHSPAN,
 
