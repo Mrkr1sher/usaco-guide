@@ -60,18 +60,14 @@ const SectionContainer = styled.div`
 `;
 
 const HeroBGColor: { [key in SectionID]: string } = {
-  microeconomics: 'bg-orange-800 dark:bg-orange-900',
+  microeconomics: 'bg-blue-700 dark:bg-blue-900',
 };
 
 const HeroTextColor: { [key in SectionID]: string } = {
-  microeconomics: 'text-orange-100',
+  microeconomics: 'text-blue-200',
 };
 
-const topicsWarning = (
-  <>
-    Curated, hand-crafted AP Resources
-  </>
-);
+const topicsWarning = <>Curated, hand-crafted AP Resources</>;
 const SECTION_DESCRIPTION: { [key in SectionID]: React.ReactNode } = {
   microeconomics: (
     <>

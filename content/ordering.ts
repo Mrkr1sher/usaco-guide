@@ -15,6 +15,26 @@ const MODULE_ORDERING: { [key in SectionID]: Chapter[] } = {
       name: 'Basic Economic Concepts',
       items: ['scarcity'],
     },
+    {
+      name: 'Supply and Demand',
+      items: [],
+    },
+    {
+      name: 'Production, Cost, and the Perfect Competition Model',
+      items: [],
+    },
+    {
+      name: 'Imperfect Competition',
+      items: [],
+    },
+    {
+      name: 'Factor Markets',
+      items: [],
+    },
+    {
+      name: 'Market Failure and the Role of Government',
+      items: [],
+    },
   ],
 };
 

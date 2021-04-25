@@ -18,13 +18,12 @@ export const Authors: Author[] = [
     title: 'Content Creator',
     blurb:
       'Krish Thawani is cool cowboy',
-    // website: 'https://thecodingwizard.me/',
     email: 'krishthawani46@gmail.com',
     linkedin:'krishthawani',
     github: 'Mrkr1sher',
   },
   {
-    photo: 'adityap',
+    photo: 'prasad',
     name: 'Aditya Prasad',
     title: 'Content Creator',
     blurb:
