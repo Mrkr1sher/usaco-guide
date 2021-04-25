@@ -6,10 +6,8 @@ import {
   SECTION_LABELS,
 } from '../../content/ordering';
 import ActiveItems, { ActiveItem } from '../components/Dashboard/ActiveItems';
-import Activity from '../components/Dashboard/Activity';
 import AnnouncementBanner from '../components/Dashboard/AnnouncementBanner';
 import Announcements from '../components/Dashboard/Announcements';
-import DailyStreak from '../components/Dashboard/DailyStreak';
 import Card from '../components/Dashboard/DashboardCard';
 import DashboardProgress from '../components/Dashboard/DashboardProgress';
 import WelcomeBackBanner from '../components/Dashboard/WelcomeBackBanner';
@@ -191,7 +189,7 @@ export default function DashboardPage(props: PageProps) {
           <div className="max-w-7xl mx-auto mb-8">
             <Announcements announcements={parsedAnnouncements} />
           </div>
-          <header>
+          {/* <header>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h1 className="text-3xl font-bold leading-tight text-gray-900 dark:text-dark-high-emphasis">
                 Activity
@@ -200,7 +198,7 @@ export default function DashboardPage(props: PageProps) {
           </header>
           <div className="max-w-7xl mx-auto mb-8">
             <Activity />
-          </div>
+          </div> */}
           <header>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h1 className="text-3xl font-bold leading-tight text-gray-900 dark:text-dark-high-emphasis">
@@ -258,7 +256,7 @@ export default function DashboardPage(props: PageProps) {
                 {/*  </div>*/}
                 {/*</div>*/}
               </div>
-              <DailyStreak streak={consecutiveVisits} />
+              {/* <DailyStreak streak={consecutiveVisits} /> */}
             </div>
           </div>
         </main>
